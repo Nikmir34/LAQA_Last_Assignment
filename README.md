@@ -31,4 +31,8 @@
         1.4 Двойным кликом запустите команду allure:serve
 
     2. Если отчет не открывается из-за VPN, то нужно найти в терминале его адрес И заменить IP на localhost
+
+# Параллельный запуск
+* Для параллельного запуска тестов в файле junit-platform.properties
+  * junit.jupiter.execution.parallel.enabled сделать равным true
     
